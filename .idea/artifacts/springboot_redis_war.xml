@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-redis:war">
+    <output-path>$PROJECT_DIR$/springboot-redis/target</output-path>
+    <root id="archive" name="springboot-redis-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-redis:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -27,6 +27,7 @@
         <module name="springboot-mq" />
         <module name="springboot-mybatis" />
         <module name="springboot-mybatis-mulidatasource" />
+        <module name="springboot-redis" />
         <module name="springboot-task" />
       </profile>
     </annotationProcessing>
@@ -34,9 +35,10 @@
       <module name="springboot-data-jpa" target="1.8" />
       <module name="springboot-mail" target="1.8" />
       <module name="springboot-mq" target="1.8" />
-      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mybatis" target="1.6" />
       <module name="springboot-mybatis-mulidatasource" target="1.8" />
       <module name="springboot-parent" target="1.6" />
+      <module name="springboot-redis" target="1.6" />
       <module name="springboot-task" target="1.8" />
     </bytecodeTargetLevel>
   </component>

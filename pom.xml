@@ -76,5 +76,6 @@
         <module>springboot-task</module>
         <module>springboot-mail</module>
         <module>springboot-data-jpa</module>
+        <module>springboot-redis</module>
     </modules>
 </project>
