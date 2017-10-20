@@ -1,0 +1,4 @@
+######本地环境
+server:
+  port: 8083
+  context-path: /boot

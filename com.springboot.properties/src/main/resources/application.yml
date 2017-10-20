@@ -1,0 +1,22 @@
+server:
+  port: 8081
+  context-path: /springboot/properties
+
+######配置启动环境
+spring:
+  profiles:
+    active: redis
+
+######同时可以加入一些变量，可以方便修改，并不需要重启服务器，相当于百度的disconf
+email: zhaojw_420@163.com
+age: 19
+
+#####可以重复引用上面已经定义过的变量
+content: "email:${email},age:${age}"
+
+springboot:
+   email: zhaojw_420@163.com
+   age: 19
+   content: "email:${email},age:${age}"
+
+
