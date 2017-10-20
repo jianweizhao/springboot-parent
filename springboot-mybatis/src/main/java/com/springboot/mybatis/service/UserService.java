@@ -1,10 +1,19 @@
-package com.springboot.mybatis.mapper;
+package com.springboot.mybatis.service;
 
 import com.springboot.mybatis.entity.User;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-public interface UserMapper {
+/**
+ * Created by zhaojw
+ * Date: 2017/10/20
+ * Time: 10:15
+ *
+ * @author: zhaojw
+ */
+
+public interface UserService {
 
     int deleteByPrimaryKey(Long id);
 
@@ -18,5 +27,5 @@ public interface UserMapper {
 
     int updateByPrimaryKey(User record);
 
-    List<User> selectAllUser();
+   // List<User> selectAllUser();
 }

@@ -3,6 +3,7 @@ package com.springboot.mybatis.entity;
 import java.io.Serializable;
 
 public class User implements Serializable {
+
     private Long id;
 
     private String userName;
