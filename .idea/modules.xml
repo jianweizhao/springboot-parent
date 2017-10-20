@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mail/springboot-mail.iml" filepath="$PROJECT_DIR$/springboot-mail/springboot-mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mq/springboot-mq.iml" filepath="$PROJECT_DIR$/springboot-mq/springboot-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/springboot-mybatis-mulidatasource.iml" filepath="$PROJECT_DIR$/springboot-mybatis-mulidatasource/springboot-mybatis-mulidatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-parent.iml" filepath="$PROJECT_DIR$/springboot-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-task/springboot-task.iml" filepath="$PROJECT_DIR$/springboot-task/springboot-task.iml" />
     </modules>
   </component>
 </project>

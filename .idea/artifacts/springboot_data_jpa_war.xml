@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-data-jpa:war">
+    <output-path>$PROJECT_DIR$/springboot-data-jpa/target</output-path>
+    <root id="archive" name="springboot-data-jpa-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-data-jpa:war exploded" />
+    </root>
+  </artifact>
+</component>
