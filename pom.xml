@@ -77,5 +77,6 @@
         <module>springboot-mail</module>
         <module>springboot-data-jpa</module>
         <module>springboot-redis</module>
+        <module>springboot-session</module>
     </modules>
 </project>

@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/springboot-mail/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-data-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-session/pom.xml" />
       </list>
     </option>
   </component>

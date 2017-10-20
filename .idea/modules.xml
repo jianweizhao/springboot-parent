@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/springboot-mybatis-mulidatasource.iml" filepath="$PROJECT_DIR$/springboot-mybatis-mulidatasource/springboot-mybatis-mulidatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-parent.iml" filepath="$PROJECT_DIR$/springboot-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-session/springboot-session.iml" filepath="$PROJECT_DIR$/springboot-session/springboot-session.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-task/springboot-task.iml" filepath="$PROJECT_DIR$/springboot-task/springboot-task.iml" />
     </modules>
   </component>

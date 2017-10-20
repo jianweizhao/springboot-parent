@@ -28,6 +28,7 @@
         <module name="springboot-mybatis" />
         <module name="springboot-mybatis-mulidatasource" />
         <module name="springboot-redis" />
+        <module name="springboot-session" />
         <module name="springboot-task" />
       </profile>
     </annotationProcessing>
@@ -39,6 +40,7 @@
       <module name="springboot-mybatis-mulidatasource" target="1.8" />
       <module name="springboot-parent" target="1.6" />
       <module name="springboot-redis" target="1.6" />
+      <module name="springboot-session" target="1.6" />
       <module name="springboot-task" target="1.8" />
     </bytecodeTargetLevel>
   </component>
