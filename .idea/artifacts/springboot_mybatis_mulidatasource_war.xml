@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-mybatis-mulidatasource:war">
+    <output-path>$PROJECT_DIR$/springboot-mybatis-mulidatasource/target</output-path>
+    <root id="archive" name="springboot-mybatis-mulidatasource-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-mybatis-mulidatasource:war exploded" />
+    </root>
+  </artifact>
+</component>

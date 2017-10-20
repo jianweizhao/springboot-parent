@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-mq:war">
+    <output-path>$PROJECT_DIR$/springboot-mq/target</output-path>
+    <root id="archive" name="springboot-mq-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-mq:war exploded" />
+    </root>
+  </artifact>
+</component>

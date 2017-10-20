@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<classPathEntry location="C:\Users\v\.m2\repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar" />
+	<context id="mysqlTables" targetRuntime="MyBatis3">
+		<property name="javaFileEncoding" value="UTF-8"/>
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://192.168.1.117:3306/zhaojw_test?characterEncoding=utf8"
+			userId="root" password="unreal">
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<javaModelGenerator targetPackage="com.springboot.mulidatasource.entity"
+			targetProject="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<sqlMapGenerator targetPackage="mulidatasource"
+			targetProject="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.springboot.mulidatasource.mapper" targetProject="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\java">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<table schema="zhaojw_test" tableName="tb_user"
+			   enableCountByExample="false" enableUpdateByExample="false"
+			   enableDeleteByExample="false" enableSelectByExample="false"
+			   selectByExampleQueryId="false" domainObjectName="User">
+			<generatedKey column="id" sqlStatement="MySql"
+						  identity="true"/>
+		</table>
+
+
+	</context>
+</generatorConfiguration>

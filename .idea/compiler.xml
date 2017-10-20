@@ -22,11 +22,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="springboot-mq" />
         <module name="springboot-mybatis" />
+        <module name="springboot-mybatis-mulidatasource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-mq" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mybatis-mulidatasource" target="1.8" />
       <module name="springboot-parent" target="1.6" />
     </bytecodeTargetLevel>
   </component>
