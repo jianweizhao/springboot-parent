@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/com.springboot.properties/com.springboot.properties.iml" filepath="$PROJECT_DIR$/com.springboot.properties/com.springboot.properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mail/springboot-mail.iml" filepath="$PROJECT_DIR$/springboot-mail/springboot-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mq/springboot-mq.iml" filepath="$PROJECT_DIR$/springboot-mq/springboot-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/springboot-mybatis-mulidatasource.iml" filepath="$PROJECT_DIR$/springboot-mybatis-mulidatasource/springboot-mybatis-mulidatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-parent.iml" filepath="$PROJECT_DIR$/springboot-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-properties/springboot.properties.iml" filepath="$PROJECT_DIR$/springboot-properties/springboot.properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-session/springboot-session.iml" filepath="$PROJECT_DIR$/springboot-session/springboot-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro/com.springboot.shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/com.springboot.shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-task/springboot-task.iml" filepath="$PROJECT_DIR$/springboot-task/springboot-task.iml" />
     </modules>
   </component>

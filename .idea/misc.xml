@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-session/pom.xml" />
         <option value="$PROJECT_DIR$/com.springboot.properties/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/com.springboot.shiro/pom.xml" />
       </list>
     </option>
   </component>

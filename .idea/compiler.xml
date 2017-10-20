@@ -23,27 +23,42 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="com.springboot.properties" />
+        <module name="com.springboot.shiro" />
         <module name="springboot-data-jpa" />
         <module name="springboot-mail" />
+        <module name="springboot-mongodb" />
         <module name="springboot-mq" />
         <module name="springboot-mybatis" />
         <module name="springboot-mybatis-mulidatasource" />
         <module name="springboot-redis" />
         <module name="springboot-session" />
+        <module name="springboot-shiro" />
         <module name="springboot-task" />
+      </profile>
+      <profile default="false" name="Annotation profile for springboot.properties" enabled="true">
+        <sourceOutputDir name="../springboot.properties/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../springboot.properties/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springboot.properties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.springboot.properties" target="1.6" />
+      <module name="com.springboot.shiro" target="1.8" />
       <module name="springboot-data-jpa" target="1.8" />
       <module name="springboot-mail" target="1.8" />
+      <module name="springboot-mongodb" target="1.6" />
       <module name="springboot-mq" target="1.8" />
       <module name="springboot-mybatis" target="1.6" />
       <module name="springboot-mybatis-mulidatasource" target="1.8" />
       <module name="springboot-parent" target="1.6" />
+      <module name="springboot-properties" target="1.6" />
       <module name="springboot-redis" target="1.6" />
       <module name="springboot-session" target="1.6" />
+      <module name="springboot-shiro" target="1.6" />
       <module name="springboot-task" target="1.8" />
+      <module name="springboot.properties" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

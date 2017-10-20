@@ -78,6 +78,8 @@
         <module>springboot-data-jpa</module>
         <module>springboot-redis</module>
         <module>springboot-session</module>
-        <module>com.springboot.properties</module>
+        <module>springboot-properties</module>
+        <module>springboot-mongodb</module>
+        <module>springboot-shiro</module>
     </modules>
 </project>

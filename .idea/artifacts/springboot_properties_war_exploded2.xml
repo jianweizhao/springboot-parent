@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="com.springboot.properties:war exploded">
-    <output-path>$PROJECT_DIR$/com.springboot.properties/target/springboot-properties-0.0.1-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="springboot-properties:war exploded">
+    <output-path>$PROJECT_DIR$/springboot-properties/target/springboot-properties-0.0.1-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
