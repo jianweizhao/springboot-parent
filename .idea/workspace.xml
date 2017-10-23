@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eece1a6-a465-4d5f-8fc2-3f0a7d7f31a3" name="Default" comment="整体架构整理">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-properties/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_springboot_shiro_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_springboot_shiro_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_properties_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_properties_war2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_properties_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_properties_war_exploded2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_shiro_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_shiro_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/java/com/springboot/mongodb/SpringbootMongodbApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mongodb/src/test/java/com/springboot/mongodb/SpringbootMongodbApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-properties/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-properties/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-properties/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-properties/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-properties/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com_springboot_properties_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com_springboot_properties_war_exploded.xml" />
+    <list default="true" id="1eece1a6-a465-4d5f-8fc2-3f0a7d7f31a3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/RedisMq.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/dao/RedisMqDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/receiver/RedisReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/resources/application-redis.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/redis/RedisMqTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_mq_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_mq_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/.gitignore" afterPath="$PROJECT_DIR$/springboot-mongodb/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/springboot-mongodb/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/springboot-mongodb/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/mvnw" afterPath="$PROJECT_DIR$/springboot-mongodb/mvnw" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/mvnw.cmd" afterPath="$PROJECT_DIR$/springboot-mongodb/mvnw.cmd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/pom.xml" afterPath="$PROJECT_DIR$/springboot-properties/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/src/main/java/com/springboot/properties/SpringbootPropertiesApplication.java" afterPath="$PROJECT_DIR$/springboot-properties/src/main/java/com/springboot/properties/SpringbootPropertiesApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/src/main/java/com/springboot/properties/controller/PropertyController.java" afterPath="$PROJECT_DIR$/springboot-properties/src/main/java/com/springboot/properties/controller/PropertyController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/src/main/java/com/springboot/properties/properties/SpringBootProperties.java" afterPath="$PROJECT_DIR$/springboot-properties/src/main/java/com/springboot/properties/properties/SpringBootProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/springboot-properties/src/main/resources/application-dev.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springboot-mongodb/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springboot-properties/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com.springboot.properties/src/test/java/com/springboot/properties/SpringbootPropertiesApplicationTests.java" afterPath="$PROJECT_DIR$/springboot-properties/src/test/java/com/springboot/properties/SpringbootPropertiesApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mq/pom.xml" afterPath="$PROJECT_DIR$/springboot-mq/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/ServletInitializer.java" afterPath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/ServletInitializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/SpringbootDataJpaApplication.java" afterPath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/SpringbootDataJpaApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/aop/HttpAspject.java" afterPath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/aop/HttpAspject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/controller/JpaController.java" afterPath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/controller/JpaController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/dao/UserRepository.java" afterPath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/dao/UserRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/entity/UserForJpa.java" afterPath="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/entity/UserForJpa.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-data-jpa/src/test/java/com/springboot/data/jpa/SpringbootDataJpaApplicationTests.java" afterPath="$PROJECT_DIR$/springboot-data-jpa/src/test/java/com/springboot/mq/SpringbootDataJpaApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-mail/src/main/java/com/springboot/data/jpa/SpringbootMailApplication.java" afterPath="$PROJECT_DIR$/springboot-mail/src/main/java/com/springboot/mq/SpringbootMailApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-mail/src/test/java/com/springboot/data/jpa/SpringbootMailApplicationTests.java" afterPath="$PROJECT_DIR$/springboot-mail/src/test/java/com/springboot/mq/SpringbootMailApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/data/jpa/SpringbootMqApplication.java" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/SpringbootMqApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/data/jpa/SpringbootMqApplicationTests.java" afterPath="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/SpringbootMqApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/data/jpa/SpringbootTaskApplication.java" afterPath="$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/SpringbootTaskApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/data/jpa/task/SchedulerTask.java" afterPath="$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/task/SchedulerTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/data/jpa/task/SchedulerTask2.java" afterPath="$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/task/SchedulerTask2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-task/src/test/java/com/springboot/data/jpa/SpringbootTaskApplicationTests.java" afterPath="$PROJECT_DIR$/springboot-task/src/test/java/com/springboot/mq/SpringbootTaskApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,82 +62,12 @@
     <favorites_list name="springboot-parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.678572">
-              <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-session/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.0">
-              <caret line="18" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mongodb/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0">
-              <caret line="18" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-shiro/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.184514">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-properties/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/resources/application.properties">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RedisReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/receiver/RedisReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringBootProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/java/com/springboot/properties/properties/SpringBootProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertyController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/java/com/springboot/properties/controller/PropertyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,23 +75,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/resources/application.yml">
+      <file leaf-file-name="RedisMq.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/RedisMq.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51668584">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisMqTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/redis/RedisMqTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/resources/application-dev.yml">
+      <file leaf-file-name="RedisMqDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/dao/RedisMqDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17637795">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <marker date="1508499540259" expanded="true" signature="11:53" placeholder="server:" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,12 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/mapper/UserMasterMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/resources/mulidatasource/UserMasterMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/service/UserMasterService.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/datasource/DataSouceMasterConfig.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/datasource/DataSourceSlaveConfig.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/resources/mulidatasource/mastermapper/UserMasterMapper.xml" />
@@ -218,7 +143,6 @@
         <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/controller/UserMasterController.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/test/java/com/springboot/mulidatasource/SpringbootMybatisMulidatasourceApplicationTests.java" />
         <option value="$PROJECT_DIR$/springboot-task/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-mq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-task/src/main/java/com/example/demo/task/SchedulerTask.java" />
         <option value="$PROJECT_DIR$/springboot-task/src/main/java/com/example/demo/task/SchedulerTask2.java" />
         <option value="$PROJECT_DIR$/springboot-task/src/main/java/com/example/demo/SpringbootTaskApplication.java" />
@@ -250,6 +174,13 @@
         <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/dao/RedisMqDao.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/resources/application-redis.properties" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/redis/RedisMqTest.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/receiver/RedisReceiver.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/RedisMq.java" />
       </list>
     </option>
   </component>
@@ -302,7 +233,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -330,6 +261,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -349,22 +282,265 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="receiver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MySpringBoot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkSpaceV\springboot-parent\com.springboot.properties\src\main\resources" />
-      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources\mulidatasource\slavemapper" />
-      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources\mulidatasource\mastermapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaceV\springboot-parent\springboot-data-jpa\src\main\resources" />
+      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources\mulidatasource" />
+      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources" />
+      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.springboot.properties.properties" />
@@ -373,124 +549,13 @@
       <recent name="com.example.demo" />
       <recent name="com.springboot.mybatis.aop" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpaceV\springboot-parent\springboot-data-jpa\src\main\resources" />
-      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources\mulidatasource" />
-      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources" />
-      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaceV\springboot-parent\com.springboot.properties\src\main\resources" />
+      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources\mulidatasource\slavemapper" />
+      <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources\mulidatasource\mastermapper" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootTaskApplication">
+  <component name="RunManager" selected="JUnit.RedisMqTest.测试redisMq">
     <configuration default="false" name="SpringbootMybatisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -508,46 +573,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="springboot-mybatis" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MBG (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.mulidatasource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.springboot.mulidatasource.MBG" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springboot-mybatis-mulidatasource" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringbootMybatisMulidatasourceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.mulidatasource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.springboot.mulidatasource.SpringbootMybatisMulidatasourceApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springboot-mybatis-mulidatasource" />
       <envs />
       <method />
     </configuration>
@@ -590,6 +615,52 @@
       <option name="PACKAGE_NAME" value="com.springboot.mulidatasource" />
       <option name="MAIN_CLASS_NAME" value="com.springboot.mulidatasource.SpringbootMybatisMulidatasourceApplicationTests" />
       <option name="METHOD_NAME" value="多数据源查询所有数据" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringbootMqApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.SpringbootMqApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springboot-mq" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RedisMqTest.测试redisMq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.mq.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-mq" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.springboot.mq.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.redis.RedisMqTest" />
+      <option name="METHOD_NAME" value="测试redisMq" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -994,6 +1065,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1086,30 +1162,30 @@
       <method />
     </configuration>
     <list size="16">
-      <item index="0" class="java.lang.String" itemvalue="Application.SpringbootMybatisApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisMulidatasourceApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MBG (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SpringbootMybatisMulidatasourceApplication" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据元添加数据" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据源查询所有数据" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.SpringbootMqApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.SpringbootTaskApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SpringbootMailApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringbootDataJpaApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.SpringbootRedisApplication" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.SpringbootSessionApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.SpringbootPropertiesApplication" />
-      <item index="14" class="java.lang.String" itemvalue="Spring Boot.SpringbootMongodbApplication" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.SpringbootShiroApplication" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisMulidatasourceApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringbootMqApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringbootTaskApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringbootMailApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.SpringbootDataJpaApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.SpringbootRedisApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.SpringbootSessionApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.SpringbootPropertiesApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SpringbootMongodbApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringbootShiroApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Application.SpringbootMybatisApplication" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据元添加数据" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据源查询所有数据" />
+      <item index="14" class="java.lang.String" itemvalue="Application.SpringbootMqApplication" />
+      <item index="15" class="java.lang.String" itemvalue="JUnit.RedisMqTest.测试redisMq" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据源查询所有数据" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据元添加数据" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SpringbootMybatisApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SpringbootMybatisMulidatasourceApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MBG (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RedisMqTest.测试redisMq" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SpringbootMqApplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据源查询所有数据" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据元添加数据" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SpringbootMybatisApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1123,7 +1199,8 @@
       <created>1508423995167</created>
       <option name="number" value="Default" />
       <updated>1508423995167</updated>
-      <workItem from="1508461009242" duration="29393000" />
+      <workItem from="1508461009242" duration="29421000" />
+      <workItem from="1508723498902" duration="5541000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis自动生成">
       <created>1508465630200</created>
@@ -1233,15 +1310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508500577053</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="整体架构整理">
+      <created>1508500593413</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1508500593413</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringbootMybatisApplicationTests_initTest - 2017.10.20 at 11h 26m 36s.xml">
-      <configuration name="SpringbootMybatisApplicationTests.initTest" configurationId="JUnit" />
+    <history-entry file="RedisMqTest_测试redisMq - 2017.10.23 at 10h 52m 16s.xml">
+      <configuration name="RedisMqTest.测试redisMq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMybatisApplicationTests_initTest - 2017.10.20 at 11h 27m 26s.xml">
-      <configuration name="SpringbootMybatisApplicationTests.initTest" configurationId="JUnit" />
+    <history-entry file="RedisMqTest_测试redisMq - 2017.10.23 at 10h 53m 55s.xml">
+      <configuration name="RedisMqTest.测试redisMq" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SpringbootMybatisApplicationTests_initTest - 2017.10.20 at 11h 28m 07s.xml">
       <configuration name="SpringbootMybatisApplicationTests.initTest" configurationId="JUnit" />
@@ -1269,25 +1352,25 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29393000" />
+    <option name="totallyTimeSpent" value="34962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40066963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45982143" sideWeight="0.5282516" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26086956" sideWeight="0.52238804" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22287235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38350055" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26086956" sideWeight="0.47974414" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24414715" sideWeight="0.47761193" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44419643" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.492" order="0" side_tool="false" content_ui="combo" x="783" y="30" width="353" height="957" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29957357" sideWeight="0.492" order="0" side_tool="false" content_ui="combo" x="783" y="30" width="353" height="957" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16791044" sideWeight="0.508" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1924307" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1315,7 +1398,7 @@
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45982143" sideWeight="0.5282516" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26086956" sideWeight="0.52238804" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22287235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1332,13 +1415,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51004463" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20958751" sideWeight="0.47974414" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38350055" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24414715" sideWeight="0.47761193" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44419643" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50446427" sideWeight="0.4760128" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.492" order="0" side_tool="false" content_ui="combo" x="783" y="30" width="353" height="957" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29957357" sideWeight="0.492" order="0" side_tool="false" content_ui="combo" x="783" y="30" width="353" height="957" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16791044" sideWeight="0.508" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37276787" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1358,10 +1441,10 @@
     <MESSAGE value="springboot实现jpa" />
     <MESSAGE value="springboot实现redis整合" />
     <MESSAGE value="springboot实现session整合" />
-    <MESSAGE value="整体架构整理" />
     <MESSAGE value="springboot整合shiro" />
     <MESSAGE value="springboot整合mongodb" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot整合mongodb" />
+    <MESSAGE value="整体架构整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="整体架构整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1381,77 +1464,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/test/java/com/springboot/myabtis/SpringbootMybatisApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="29" selection-start-line="25" selection-start-column="8" selection-end-line="33" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/datasource/DataSouceMasterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/datasource/DataSourceSlaveConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/resources/mulidatasource/mastermapper/UserMasterMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.690909">
-          <caret line="25" column="11" selection-start-line="21" selection-start-column="1" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <marker date="1508488952743" expanded="true" signature="955:1057" placeholder="select from tb_user" />
-            <marker date="1508488952743" expanded="true" signature="1133:1197" placeholder="select from tb_user" />
-            <marker date="1508488952743" expanded="true" signature="1282:1338" placeholder="delete from " />
-            <marker date="1508488952743" expanded="true" signature="3097:3666" placeholder="update tb_us... " />
-            <marker date="1508488952743" expanded="true" signature="3777:4073" placeholder="update tb_us... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/resources/mulidatasource/slavemapper/UserSlaveMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1005386">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-          <folding>
-            <marker date="1508488952743" expanded="true" signature="953:1055" placeholder="select from tb_user" />
-            <marker date="1508488952743" expanded="true" signature="1131:1195" placeholder="select from tb_user" />
-            <marker date="1508488952743" expanded="true" signature="1280:1336" placeholder="delete from " />
-            <marker date="1508488952743" expanded="true" signature="3095:3664" placeholder="update tb_us... " />
-            <marker date="1508488952743" expanded="true" signature="3775:4071" placeholder="update tb_us... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/mapper/slave/UserSlaveMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9150327">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1459,9 +1475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9150327">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1469,9 +1482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0980393">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1479,9 +1489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1437908">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,11 +1496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1911764">
           <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1405#1406#0" expanded="false" />
-            <element signature="e#1460#1461#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1501,11 +1503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0539216">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1420#1421#0" expanded="false" />
-            <element signature="e#1476#1477#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1513,11 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#935#936#0" expanded="false" />
-            <element signature="e#992#993#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1525,7 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,18 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47863248">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/data/jpa/SpringbootMqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#258#259#0" expanded="false" />
-            <element signature="e#323#324#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1552,48 +1531,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/data/jpa/task/SchedulerTask.java">
+    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/task/SchedulerTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#670#671#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/data/jpa/task/SchedulerTask2.java">
+    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/task/SchedulerTask2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/data/jpa/SpringbootTaskApplication.java">
+    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/SpringbootTaskApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.481482">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.107142">
-          <caret line="17" column="40" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1614,7 +1578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/aop/HttpAspject.java">
+    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/aop/HttpAspject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -1630,7 +1594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/entity/UserForJpa.java">
+    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/entity/UserForJpa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1640,7 +1604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/dao/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/dao/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
@@ -1650,7 +1614,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/controller/JpaController.java">
+    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/controller/JpaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
@@ -1662,11 +1626,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/test/java/com/springboot/data/jpa/SpringbootDataJpaApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/test/java/com/springboot/mq/SpringbootDataJpaApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36842105">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -1682,22 +1645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/springboot/redis/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="77" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1719#1720#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/springboot/redis/entity/UserForRedis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44094488">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1705,23 +1656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.555555">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/springboot/redis/SpringbootRedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.678572">
-          <caret line="10" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1729,9 +1663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1739,9 +1670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1749,23 +1677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-properties/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1773,17 +1684,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48503938">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17637795">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1508499540259" expanded="true" signature="11:53" placeholder="server:" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1803,41 +1711,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/java/com/springboot/properties/properties/SpringBootProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/java/com/springboot/properties/controller/PropertyController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-session/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="18" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.678572">
-          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-mongodb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-properties/src/main/java/com/springboot/properties/properties/SpringBootProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#682#683#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#822#823#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-session/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.0">
           <caret line="18" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
@@ -1845,11 +1765,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-shiro/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springboot-properties/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.184514">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.035715">
+          <caret line="26" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5872236">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.035715">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/springboot/redis/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/springboot/redis/SpringbootRedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/SpringbootMqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/resources/application-redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5668016">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037786774">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/redis/RedisMqTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/dao/RedisMqDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/receiver/RedisReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/RedisMq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51668584">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,6 +30,7 @@
         <module name="springboot-mq" />
         <module name="springboot-mybatis" />
         <module name="springboot-mybatis-mulidatasource" />
+        <module name="springboot-properties" />
         <module name="springboot-redis" />
         <module name="springboot-session" />
         <module name="springboot-shiro" />
