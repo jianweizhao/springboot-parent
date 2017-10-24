@@ -17,9 +17,9 @@ import java.util.Date;
  * @author: zhaojw
  */
 @Component
-public class RabbitMqSender {
+public class RabbitMqSender2 {
 
-    private static Logger logger= LoggerFactory.getLogger(RabbitMqSender.class);
+    private static Logger logger= LoggerFactory.getLogger(RabbitMqSender2.class);
 
     private static SimpleDateFormat df=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
@@ -27,7 +27,7 @@ public class RabbitMqSender {
     private AmqpTemplate amqpTemplate;
 
     public void send(String message) {
-        logger.info("《1》发送消息为：{},发送时间为：{}",message,df.format(new Date()));
+        logger.info("《2》发送消息为：{},发送时间为：{}",message,df.format(new Date()));
         this.amqpTemplate.convertAndSend("hello", message);
     }
 }

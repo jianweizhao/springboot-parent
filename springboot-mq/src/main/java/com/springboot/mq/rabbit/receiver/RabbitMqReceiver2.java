@@ -15,12 +15,12 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @RabbitListener(queues = "hello")
-public class RabbitMqReceiver {
+public class RabbitMqReceiver2 {
 
-    private static Logger logger= LoggerFactory.getLogger(RabbitMqReceiver.class);
+    private static Logger logger= LoggerFactory.getLogger(RabbitMqReceiver2.class);
 
     @RabbitHandler
     public void process(String message) {
-        logger.info("监听器《1》接收到消息：{}",message);
+        logger.info("监听器《2》接收到消息：{}",message);
     }
 }

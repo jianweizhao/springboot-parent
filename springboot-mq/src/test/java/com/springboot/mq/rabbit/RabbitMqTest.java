@@ -1,7 +1,10 @@
 package com.springboot.mq.rabbit;
 
 import com.springboot.mq.SpringbootMqApplication;
+import com.springboot.mq.rabbit.model.User;
+import com.springboot.mq.rabbit.object.ObjectSender;
 import com.springboot.mq.rabbit.send.RabbitMqSender;
+import com.springboot.mq.rabbit.send.RabbitMqSender2;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +25,12 @@ public class RabbitMqTest {
     @Autowired
     private RabbitMqSender mqSender;
 
+    @Autowired
+    private RabbitMqSender2 mqSender2;
+
+    @Autowired
+    private ObjectSender objectSender;
+
     @Test
     public void 测试rabbitmq消息机制(){
         mqSender.send("hello rabbitmq");
@@ -32,5 +41,18 @@ public class RabbitMqTest {
         for (int i=0;i<10;i++){
             mqSender.send("第"+i+"次发送hello rabbitmq");
         }
+    }
+
+    @Test
+    public void 测试rabitmq多对多发送(){
+        for(int i=1;i<11;i++){
+            mqSender.send("第"+i+"次发送hello rabbitmq");
+            mqSender2.send("第"+i+"次发送hello rabbitmq");
+        }
+    }
+
+    @Test
+    public void 测试rabbit发送对象消息(){
+       objectSender.send(new User("zhaojw","25"));
     }
 }

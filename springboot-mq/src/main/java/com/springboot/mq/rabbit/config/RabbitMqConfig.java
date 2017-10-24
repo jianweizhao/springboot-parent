@@ -18,4 +18,9 @@ public class RabbitMqConfig {
     public Queue queue(){
        return new Queue("hello");
     }
+
+    @Bean
+    public Queue userQuene(){
+        return new Queue("user");
+    }
 }
