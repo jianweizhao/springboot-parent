@@ -5,6 +5,7 @@ import com.springboot.mq.rabbit.model.User;
 import com.springboot.mq.rabbit.object.ObjectSender;
 import com.springboot.mq.rabbit.send.RabbitMqSender;
 import com.springboot.mq.rabbit.send.RabbitMqSender2;
+import com.springboot.mq.rabbit.topic.TopicSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +32,9 @@ public class RabbitMqTest {
     @Autowired
     private ObjectSender objectSender;
 
+    @Autowired
+    private TopicSender topicSender;
+
     @Test
     public void 测试rabbitmq消息机制(){
         mqSender.send("hello rabbitmq");
@@ -54,5 +58,11 @@ public class RabbitMqTest {
     @Test
     public void 测试rabbit发送对象消息(){
        objectSender.send(new User("zhaojw","25"));
+    }
+
+    @Test
+    public void 测试TopicExchange(){
+        topicSender.send1("topic.message");
+        topicSender.send2(">>>>topic.messages");
     }
 }
