@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eece1a6-a465-4d5f-8fc2-3f0a7d7f31a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/RabbitMqConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/receiver/RabbitMqReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/send/RabbitMqSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/resources/application-rabbit.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/rabbit/RabbitMqTest.java" />
+    <list default="true" id="1eece1a6-a465-4d5f-8fc2-3f0a7d7f31a3" name="Default" comment="springboot整合rabbit-mq">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/FanoutConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutRevicer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutRevicer2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutSender.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/rabbit/RabbitMqTest.java" afterPath="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/rabbit/RabbitMqTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,73 +46,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RedisReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/receiver/RedisReceiver.java">
+      <file leaf-file-name="TopicRabbitConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/TopicRabbitConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisMq.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/RedisMq.java">
+      <file leaf-file-name="FanoutConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/FanoutConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-rabbit.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/resources/application-rabbit.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitMqConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/RabbitMqConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30471584">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.84153">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitMqSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/send/RabbitMqSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitMqReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/receiver/RabbitMqReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
                 <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FanoutSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FanoutRevicer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutRevicer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FanoutRevicer2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutRevicer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,43 +136,51 @@
         <entry file="file://$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/rabbit/RabbitMqTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#1833#1834#0" expanded="true" />
+                <element signature="e#1886#1887#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties">
+      <file leaf-file-name="RabbitMqConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/RabbitMqConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding />
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisMqTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/redis/RedisMqTest.java">
+      <file leaf-file-name="TopicReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisMqDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/dao/RedisMqDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicReceiver2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicReceiver2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,19 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/mapper/master/UserMasterMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/service/master/UserMasterService.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/service/slave/UserSlaveService.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/service/slave/impl/UserSlaveServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/service/master/impl/UserMasterServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/controller/UserMasterController.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/test/java/com/springboot/mulidatasource/SpringbootMybatisMulidatasourceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-task/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-task/src/main/java/com/example/demo/task/SchedulerTask.java" />
-        <option value="$PROJECT_DIR$/springboot-task/src/main/java/com/example/demo/task/SchedulerTask2.java" />
-        <option value="$PROJECT_DIR$/springboot-task/src/main/java/com/example/demo/SpringbootTaskApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-mail/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/example/demo/aop/HttpAspject.java" />
         <option value="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/aop/HttpAspject.java" />
         <option value="$PROJECT_DIR$/springboot-data-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/data/jpa/entity/UserForJpa.java" />
@@ -228,12 +239,25 @@
         <option value="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/redis/RedisMqTest.java" />
         <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/receiver/RedisReceiver.java" />
         <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/RedisMq.java" />
-        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/receiver/RabbitMqReceiver.java" />
         <option value="$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-mq/src/main/resources/application-rabbit.properties" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/receiver/RabbitMqReceiver.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/receiver/RabbitMqReceiver2.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/send/RabbitMqSender2.java" />
         <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/send/RabbitMqSender.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/model/User.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/object/ObjectRecevier.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/object/ObjectSender.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/RabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicSender.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicReceiver2.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicReceiver.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/TopicRabbitConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutSender.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutRevicer2.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutRevicer.java" />
         <option value="$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/rabbit/RabbitMqTest.java" />
+        <option value="$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/FanoutConfig.java" />
       </list>
     </option>
   </component>
@@ -314,9 +338,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -502,10 +523,6 @@
               <option name="myItemId" value="rabbit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="send" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -541,7 +558,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="receiver" />
+              <option name="myItemId" value="fanout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,11 +602,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangadmin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -600,11 +620,11 @@
       <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springboot.mq.rabbit.fanout" />
+      <recent name="com.springboot.mq.rabbit.send" />
+      <recent name="com.springboot.mq.rabbit.receiver" />
       <recent name="com.springboot.properties.properties" />
       <recent name="com.example.demo.aop" />
-      <recent name="com.springboot.mulidatasource.mapper" />
-      <recent name="com.example.demo" />
-      <recent name="com.springboot.mybatis.aop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpaceV\springboot-parent\com.springboot.properties\src\main\resources" />
@@ -612,105 +632,7 @@
       <recent name="D:\WorkSpaceV\springboot-parent\springboot-mybatis-mulidatasource\src\main\resources\mulidatasource\mastermapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RabbitMqTest.测试rabbitmq一对多发送">
-    <configuration default="false" name="SpringbootMybatisMulidatasourceApplicationTests.多数据源查询所有数据" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.mulidatasource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-mybatis-mulidatasource" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springboot.mulidatasource" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.mulidatasource.SpringbootMybatisMulidatasourceApplicationTests" />
-      <option name="METHOD_NAME" value="多数据源查询所有数据" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringbootMqApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.mq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.SpringbootMqApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springboot-mq" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RedisMqTest.测试redisMq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.mq.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-mq" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springboot.mq.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.redis.RedisMqTest" />
-      <option name="METHOD_NAME" value="测试redisMq" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RabbitMqTest.测试rabbitmq消息机制" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.mq.rabbit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-mq" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springboot.mq.rabbit" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.rabbit.RabbitMqTest" />
-      <option name="METHOD_NAME" value="测试rabbitmq消息机制" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RabbitMqTest.测试测试Fanout">
     <configuration default="false" name="RabbitMqTest.测试rabbitmq一对多发送" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -724,6 +646,110 @@
       <option name="PACKAGE_NAME" value="com.springboot.mq.rabbit" />
       <option name="MAIN_CLASS_NAME" value="com.springboot.mq.rabbit.RabbitMqTest" />
       <option name="METHOD_NAME" value="测试rabbitmq一对多发送" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RabbitMqTest.测试rabitmq多对多发送" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.mq.rabbit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-mq" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.springboot.mq.rabbit" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.rabbit.RabbitMqTest" />
+      <option name="METHOD_NAME" value="测试rabitmq多对多发送" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RabbitMqTest.测试rabbit发送对象消息" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.mq.rabbit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-mq" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.springboot.mq.rabbit" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.rabbit.RabbitMqTest" />
+      <option name="METHOD_NAME" value="测试rabbit发送对象消息" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RabbitMqTest.测试TopicExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.mq.rabbit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-mq" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.springboot.mq.rabbit" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.rabbit.RabbitMqTest" />
+      <option name="METHOD_NAME" value="测试TopicExchange" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RabbitMqTest.测试测试Fanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.mq.rabbit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-mq" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.springboot.mq.rabbit" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.mq.rabbit.RabbitMqTest" />
+      <option name="METHOD_NAME" value="测试测试Fanout" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1236,19 +1262,19 @@
       <item index="8" class="java.lang.String" itemvalue="Spring Boot.SpringbootPropertiesApplication" />
       <item index="9" class="java.lang.String" itemvalue="Spring Boot.SpringbootMongodbApplication" />
       <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringbootShiroApplication" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据源查询所有数据" />
-      <item index="12" class="java.lang.String" itemvalue="Application.SpringbootMqApplication" />
-      <item index="13" class="java.lang.String" itemvalue="JUnit.RedisMqTest.测试redisMq" />
-      <item index="14" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabbitmq消息机制" />
-      <item index="15" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabbitmq一对多发送" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabbitmq一对多发送" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabitmq多对多发送" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabbit发送对象消息" />
+      <item index="14" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试TopicExchange" />
+      <item index="15" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试测试Fanout" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabbitmq一对多发送" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabbitmq消息机制" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RedisMqTest.测试redisMq" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SpringbootMqApplication" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringbootMybatisMulidatasourceApplicationTests.多数据源查询所有数据" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试测试Fanout" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试TopicExchange" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabbit发送对象消息" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabbitmq一对多发送" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RabbitMqTest.测试rabitmq多对多发送" />
       </list>
     </recent_temporary>
   </component>
@@ -1263,7 +1289,9 @@
       <option name="number" value="Default" />
       <updated>1508423995167</updated>
       <workItem from="1508461009242" duration="29421000" />
-      <workItem from="1508723498902" duration="11698000" />
+      <workItem from="1508723498902" duration="13329000" />
+      <workItem from="1508805566438" duration="3953000" />
+      <workItem from="1508811802030" duration="9826000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis自动生成">
       <created>1508465630200</created>
@@ -1385,43 +1413,61 @@
       <option name="project" value="LOCAL" />
       <updated>1508729766195</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="springboot整合rabbit-mq">
+      <created>1508753553475</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1508753553475</updated>
+    </task>
+    <task id="LOCAL-00022" summary="springboot整合rabbit-mq实现一对多，多对多，对象发送">
+      <created>1508813535818</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1508813535818</updated>
+    </task>
+    <task id="LOCAL-00023" summary="springboot整合rabbit-mq实现topic exchange方式">
+      <created>1508819697783</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1508819697783</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RabbitMqTest_测试rabbitmq一对多发送 - 2017.10.23 at 16h 09m 03s.xml">
-      <configuration name="RabbitMqTest.测试rabbitmq一对多发送" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 38m 06s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqTest_测试rabbitmq消息机制 - 2017.10.23 at 15h 30m 26s.xml">
-      <configuration name="RabbitMqTest.测试rabbitmq消息机制" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 40m 20s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqTest_测试rabbitmq消息机制 - 2017.10.23 at 15h 31m 35s.xml">
-      <configuration name="RabbitMqTest.测试rabbitmq消息机制" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 47m 11s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqTest_测试rabbitmq消息机制 - 2017.10.23 at 15h 32m 58s.xml">
-      <configuration name="RabbitMqTest.测试rabbitmq消息机制" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 48m 42s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqTest_测试rabbitmq消息机制 - 2017.10.23 at 15h 37m 45s.xml">
-      <configuration name="RabbitMqTest.测试rabbitmq消息机制" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 49m 55s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqTest_测试rabbitmq消息机制 - 2017.10.23 at 15h 38m 36s.xml">
-      <configuration name="RabbitMqTest.测试rabbitmq消息机制" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 51m 06s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqTest_测试rabbitmq消息机制 - 2017.10.23 at 15h 43m 44s.xml">
-      <configuration name="RabbitMqTest.测试rabbitmq消息机制" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 56m 45s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisMqTest_测试redisMq - 2017.10.23 at 10h 52m 16s.xml">
-      <configuration name="RedisMqTest.测试redisMq" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 59m 00s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisMqTest_测试redisMq - 2017.10.23 at 10h 53m 55s.xml">
-      <configuration name="RedisMqTest.测试redisMq" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试TopicExchange - 2017.10.24 at 11h 59m 31s.xml">
+      <configuration name="RabbitMqTest.测试TopicExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMybatisMulidatasourceApplicationTests_多数据源查询所有数据 - 2017.10.20 at 15h 27m 40s.xml">
-      <configuration name="SpringbootMybatisMulidatasourceApplicationTests.多数据源查询所有数据" configurationId="JUnit" />
+    <history-entry file="RabbitMqTest_测试测试Fanout - 2017.10.24 at 17h 48m 25s.xml">
+      <configuration name="RabbitMqTest.测试测试Fanout" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41119000" />
+    <option name="totallyTimeSpent" value="56529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -1429,13 +1475,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40066963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40022296" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26086956" sideWeight="0.52238804" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22287235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38350055" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04682274" sideWeight="0.47761193" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15273133" sideWeight="0.47761193" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44419643" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1497,6 +1543,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16791044" sideWeight="0.508" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1514,7 +1568,10 @@
     <MESSAGE value="springboot整合mongodb" />
     <MESSAGE value="整体架构整理" />
     <MESSAGE value="springboot整合redis-mq" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot整合redis-mq" />
+    <MESSAGE value="springboot整合rabbit-mq" />
+    <MESSAGE value="springboot整合rabbit-mq实现一对多，多对多，对象发送" />
+    <MESSAGE value="springboot整合rabbit-mq实现topic exchange方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot整合rabbit-mq实现topic exchange方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1534,126 +1591,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/service/master/impl/UserMasterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0539216">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/controller/UserMasterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/main/java/com/springboot/mulidatasource/SpringbootMybatisMulidatasourceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mulidatasource/src/test/java/com/springboot/mulidatasource/SpringbootMybatisMulidatasourceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47863248">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/springboot/mybatis/SpringbootMybatisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/task/SchedulerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/task/SchedulerTask2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-task/src/main/java/com/springboot/mq/SpringbootTaskApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.481482">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mail/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.369028">
-          <caret line="17" column="78" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5074135">
-          <caret line="17" column="40" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/aop/HttpAspject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8909092">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/entity/UserForJpa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/dao/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-data-jpa/src/main/java/com/springboot/mq/controller/JpaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1668,7 +1609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36842105">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,7 +1616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.461285">
           <caret line="10" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,7 +1665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1734,7 +1672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1742,7 +1679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1750,7 +1686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1758,7 +1693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1766,21 +1700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#510#511#0" expanded="false" />
-            <element signature="e#552#553#0" expanded="false" />
-            <element signature="e#586#587#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#643#644#0" expanded="false" />
-            <element signature="e#682#683#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#776#777#0" expanded="false" />
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#860#861#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1788,7 +1707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1796,7 +1714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.0">
           <caret line="18" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1804,7 +1721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1812,7 +1728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.035715">
           <caret line="26" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1836,7 +1751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1844,7 +1758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1852,15 +1765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/SpringbootMqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1868,7 +1772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5668016">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1876,17 +1779,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/redis/dao/RedisMqDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.29333332">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1894,9 +1793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1904,27 +1800,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.18666667">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/receiver/RabbitMqReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1932,40 +1814,201 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/SpringbootMqApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19332567">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/rabbit/RabbitMqTest.java">
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/SpringbootMqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16110472">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/receiver/RabbitMqReceiver2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-          </folding>
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/send/RabbitMqSender2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/send/RabbitMqSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="23" column="83" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/receiver/RabbitMqReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/object/ObjectSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/object/ObjectRecevier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/topic/TopicSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/RabbitMqConfig.java">
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/TopicRabbitConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30471584">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutRevicer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/fanout/FanoutRevicer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/test/java/com/springboot/mq/rabbit/RabbitMqTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1886#1887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mq/src/main/java/com/springboot/mq/rabbit/config/FanoutConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84153">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,7 @@
 package com.springboot.mq.rabbit;
 
 import com.springboot.mq.SpringbootMqApplication;
+import com.springboot.mq.rabbit.fanout.FanoutSender;
 import com.springboot.mq.rabbit.model.User;
 import com.springboot.mq.rabbit.object.ObjectSender;
 import com.springboot.mq.rabbit.send.RabbitMqSender;
@@ -35,6 +36,9 @@ public class RabbitMqTest {
     @Autowired
     private TopicSender topicSender;
 
+    @Autowired
+    private FanoutSender fanoutSender;
+
     @Test
     public void 测试rabbitmq消息机制(){
         mqSender.send("hello rabbitmq");
@@ -64,5 +68,10 @@ public class RabbitMqTest {
     public void 测试TopicExchange(){
         topicSender.send1("topic.message");
         topicSender.send2(">>>>topic.messages");
+    }
+
+    @Test
+    public void 测试测试Fanout(){
+        fanoutSender.send1("Fanout Exchange");
     }
 }
