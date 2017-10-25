@@ -73,7 +73,7 @@ public class ShiroRealm extends AuthorizingRealm {
         /**
          * SimpleAuthenticationInfo 的构造方法传入当前登录对象，登录密码，盐值，以及当前的用户名称
          */
-        SimpleAuthenticationInfo authenticationInfo=new SimpleAuthenticationInfo(user,user.getPassword(), ByteSource.Util.bytes(user.getSalt()),getName());
+        SimpleAuthenticationInfo authenticationInfo=new SimpleAuthenticationInfo(user,user.getPassword(), ByteSource.Util.bytes(user.getUsername()+user.getSalt()),getName());
         return authenticationInfo;
     }
 }

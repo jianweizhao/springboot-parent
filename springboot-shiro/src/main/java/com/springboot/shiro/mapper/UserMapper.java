@@ -20,8 +20,8 @@ public interface UserMapper {
 
     /**
      * 根据登陆账户查询user
-     * @param name
+     * @param userName
      * @return
      */
-    User selectUserByName(String name);
+    User selectUserByName(String userName);
 }

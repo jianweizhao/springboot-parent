@@ -87,4 +87,18 @@ public class Permission implements Serializable {
     public void setUrl(String url) {
         this.url = url == null ? null : url.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Permission{" +
+                "id=" + id +
+                ", available=" + available +
+                ", name='" + name + '\'' +
+                ", parentId=" + parentId +
+                ", parentIds='" + parentIds + '\'' +
+                ", permission='" + permission + '\'' +
+                ", resourceType='" + resourceType + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }

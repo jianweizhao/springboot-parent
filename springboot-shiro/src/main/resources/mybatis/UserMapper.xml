@@ -102,7 +102,10 @@
     where id = #{id,jdbcType=BIGINT}
   </update>
   
-  <select id="selectUserByName" >
-
+  <select id="selectUserByName"  resultMap="BaseResultMap" parameterType="java.lang.String">
+    select
+    <include refid="Base_Column_List" />
+    from user_info
+    where username=#{userName,jdbcType=VARCHAR}
   </select>
 </mapper>

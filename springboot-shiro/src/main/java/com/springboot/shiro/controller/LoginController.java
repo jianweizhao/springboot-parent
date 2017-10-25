@@ -27,12 +27,12 @@ public class LoginController {
 
     private static Logger logger= LoggerFactory.getLogger(LoginController.class);
 
-    @RequestMapping(value = {"/","/index"},method = RequestMethod.GET)
+    @RequestMapping(value ="/index",method = RequestMethod.GET)
     public String loginIndex(){
         return "index";
     }
 
-    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    @RequestMapping(value = "/login")
     public String login(HttpServletRequest request, Map<String,Object> map){
         logger.info("开始登录。。。。。。");
         // 登录失败从request中获取shiro处理的异常信息。
@@ -57,7 +57,7 @@ public class LoginController {
         }
         map.put("msg", msg);
         // 此方法不处理登录成功,由shiro进行处理
-        return "index";
+        return "login";
     }
 
     @RequestMapping("/403")
