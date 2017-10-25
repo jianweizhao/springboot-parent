@@ -125,4 +125,19 @@
       url = #{url,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="selectPermissionByRoleId" resultMap="BaseResultMap" parameterType="java.lang.Long">
+    SELECT
+         permission.id,
+         permission.available,
+         permission.name,
+         permission.parent_id,
+         permission.parent_ids,
+         permission.permission,
+         permission.resource_type,
+         permission.url
+    FROM sys_permission permission
+    JOIN sys_role_permission rp on rp.permission_id=permission.id
+    WHERE rp.role_id=#{userId,jdbcType=BIGINT}
+  </select>
 </mapper>

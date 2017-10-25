@@ -79,4 +79,16 @@
       role = #{role,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="selectRoleByUserId" resultMap="BaseResultMap" parameterType="java.lang.Long">
+    select
+         role.id,
+         role.available,
+         role.description,
+         role.role
+    from sys_role role
+    JOIN sys_user_role ur on ur.role_id=role.id
+    where ur.user_id=#{userId,jdbcType=BIGINT}
+  </select>
+
 </mapper>

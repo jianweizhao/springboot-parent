@@ -1,8 +1,10 @@
 package com.springboot.shiro.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class User implements Serializable {
+
     private Long id;
 
     private String username;
@@ -14,6 +16,11 @@ public class User implements Serializable {
     private String salt;
 
     private Boolean state;
+
+    /**
+     * 对应的角色。多对多
+     */
+    List<Role> userRoles;
 
     private static final long serialVersionUID = 1L;
 
@@ -63,5 +70,26 @@ public class User implements Serializable {
 
     public void setState(Boolean state) {
         this.state = state;
+    }
+
+    public List<Role> getUserRoles() {
+        return userRoles;
+    }
+
+    public void setUserRoles(List<Role> userRoles) {
+        this.userRoles = userRoles;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", salt='" + salt + '\'' +
+                ", state=" + state +
+                ", userRoles=" + userRoles +
+                '}';
     }
 }

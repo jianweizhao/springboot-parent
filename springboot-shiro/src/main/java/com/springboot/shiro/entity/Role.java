@@ -1,8 +1,10 @@
 package com.springboot.shiro.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Role implements Serializable {
+
     private Long id;
 
     private String available;
@@ -10,6 +12,11 @@ public class Role implements Serializable {
     private String description;
 
     private String role;
+
+    /**
+     * 角色对应的权限
+     */
+    private List<Permission> rolePermissions;
 
     private static final long serialVersionUID = 1L;
 
@@ -43,5 +50,24 @@ public class Role implements Serializable {
 
     public void setRole(String role) {
         this.role = role == null ? null : role.trim();
+    }
+
+    public List<Permission> getRolePermissions() {
+        return rolePermissions;
+    }
+
+    public void setRolePermissions(List<Permission> rolePermissions) {
+        this.rolePermissions = rolePermissions;
+    }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "id=" + id +
+                ", available='" + available + '\'' +
+                ", description='" + description + '\'' +
+                ", role='" + role + '\'' +
+                ", rolePermissions=" + rolePermissions +
+                '}';
     }
 }

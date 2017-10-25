@@ -1,7 +1,7 @@
 ######端口
 server:
   port: 8187
-  context-path: /springboot/shiro
+  ##context-path: /springboot/shiro
 
 ######数据源###
 spring:
@@ -12,5 +12,11 @@ spring:
     password: unreal
 
 ######mybatis的配置
-##mybatis.type-aliases-package=com.springboot.mybatis.entity
-#mybatis.mapper-locations=classpath:mybatis/*.xml
+mybatis.type-aliases-package: com.springboot.shiro.entity
+mybatis.mapper-locations: classpath:mybatis/*.xml
+
+
+####thymelea模板
+thymeleaf:
+       cache: false
+       mode: LEGACYHTML5

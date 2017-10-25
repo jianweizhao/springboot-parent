@@ -1,8 +1,10 @@
 package com.springboot.shiro.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Permission implements Serializable {
+
     private Long id;
 
     private Boolean available;
@@ -18,6 +20,7 @@ public class Permission implements Serializable {
     private String resourceType;
 
     private String url;
+
 
     private static final long serialVersionUID = 1L;
 
