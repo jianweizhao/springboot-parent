@@ -1,0 +1,23 @@
+######端口
+server:
+  port: 8085
+  context-path: /springboot/es
+
+#####elasticsearch配置
+spring:
+  data:
+    elasticsearch:
+      cluster-name: v-cluster     ####集群名称
+      cluster-nodes: 192.168.1.117:9300   #######结点
+      local: flase   # 是否本地连接
+      repositories:
+        enabled: true   # 仓库中数据存储
+      properties:
+        path:
+           logs: ./elasticsearch/log #elasticsearch日志存储目录
+           data: ./elasticsearch/data #elasticsearch数据存储目录
+
+
+######elseticsearch自定义配置
+es.index.name:  zhaojw_master               ####索引名称
+es.type.name: house       ######类型

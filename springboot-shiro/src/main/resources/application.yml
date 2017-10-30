@@ -1,9 +1,9 @@
-######端口
+######绔彛
 server:
   port: 8187
   ##context-path: /springboot/shiro
 
-######数据源###
+######锟斤拷锟斤拷源###
 spring:
   datasource:
     url: jdbc:mysql://192.168.1.117:3306/zhaojw_master
@@ -11,12 +11,12 @@ spring:
     username: fzg
     password: fzg123
 
-######mybatis的配置
+######mybatis閰嶇疆xml鏂囦欢
 mybatis.type-aliases-package: com.springboot.shiro.entity
 mybatis.mapper-locations: classpath:mybatis/*.xml
 
 
-####thymelea模板
+####thymelea模 妯℃澘
 thymeleaf:
        cache: false
        mode: LEGACYHTML5

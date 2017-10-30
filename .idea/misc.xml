@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/com.springboot.properties/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/com.springboot.shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" />
       </list>
     </option>
   </component>

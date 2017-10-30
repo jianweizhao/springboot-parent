@@ -25,6 +25,7 @@
         <module name="com.springboot.properties" />
         <module name="com.springboot.shiro" />
         <module name="springboot-data-jpa" />
+        <module name="springboot-elasticsearch" />
         <module name="springboot-mail" />
         <module name="springboot-mongodb" />
         <module name="springboot-mq" />
@@ -48,6 +49,7 @@
       <module name="com.springboot.properties" target="1.6" />
       <module name="com.springboot.shiro" target="1.8" />
       <module name="springboot-data-jpa" target="1.8" />
+      <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-mail" target="1.8" />
       <module name="springboot-mongodb" target="1.6" />
       <module name="springboot-mq" target="1.8" />

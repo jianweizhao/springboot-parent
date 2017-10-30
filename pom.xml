@@ -81,5 +81,6 @@
         <module>springboot-properties</module>
         <module>springboot-mongodb</module>
         <module>springboot-shiro</module>
+        <module>springboot-elasticsearch</module>
     </modules>
 </project>
