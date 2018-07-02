@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * <p>
  *     ssl安全协议配置
- *     测试merge
+ *     测试提交代码不再需要输入git密码
  * </p>
  *
  * @author jwzhao
