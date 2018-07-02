@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/com.springboot.shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/com.springboot.shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-base/springboot-base.iml" filepath="$PROJECT_DIR$/springboot-base/springboot-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elastic-job/springboot-elastic-job.iml" filepath="$PROJECT_DIR$/springboot-elastic-job/springboot-elastic-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-session/springboot-session.iml" filepath="$PROJECT_DIR$/springboot-session/springboot-session.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-task/springboot-task.iml" filepath="$PROJECT_DIR$/springboot-task/springboot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-properties/springboot.properties.iml" filepath="$PROJECT_DIR$/springboot-properties/springboot.properties.iml" />
     </modules>
   </component>
