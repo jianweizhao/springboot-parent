@@ -13,86 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eece1a6-a465-4d5f-8fc2-3f0a7d7f31a3" name="Default" comment="springboot整合elasticjob">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aop/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aop/AopConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aop/DemoAnnotationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aop/DemoMethodService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aop/LogAspect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aop/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/autoconfig/HelloConfigServiceAutoConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/autoconfig/HelloController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/autoconfig/HelloService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/autoconfig/HelloServiceProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aware/AwareConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aware/AwareService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/aware/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/condition/ConditionConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/condition/LinuxCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/condition/LinuxListSerivce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/condition/ListService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/condition/MacCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/condition/MacListService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/condition/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/el/DemoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/el/ElConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/el/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/el/ResourceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/enable/EnableConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/event/DemoEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/event/DemoListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/event/DemoPublisher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/event/EventConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/event/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/event/说明.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/interceptor/DemoInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/interceptor/InterceptorConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/junit/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/junit/TestConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/mvc/MyMvcConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/prepost/BeanWayService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/prepost/JSR250WayService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/prepost/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/prepost/PrePostConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/profile/DemoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/profile/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/profile/ProfileConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/schedule/DemoScheduledTaskService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/schedule/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/schedule/ScheduledTaskConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/thread/AsyncTaskService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/thread/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/springboot/base/thread/TaskExecutorConofig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/markdown.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-thymeleaf/src/main/java/com/springboot/thymeleaf/SSLConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_0_M1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_0_M1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_data_jpa_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_data_jpa_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_elasticsearch_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_elasticsearch_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_mq_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_mq_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_mybatis_mulidatasource_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_mybatis_mulidatasource_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_mybatis_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_mybatis_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_properties_war_exploded2.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_properties_war_exploded2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_redis_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_redis_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_session_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_session_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_shiro_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_shiro_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_task_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_task_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-elastic-job/src/main/java/com/springboot/elastic/job/springbootelasticjob/config/ElasticJobZKConfig.java" afterPath="$PROJECT_DIR$/springboot-elastic-job/src/main/java/com/springboot/elastic/job/springbootelasticjob/config/ElasticJobZKConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-parent.iml" afterPath="$PROJECT_DIR$/springboot-parent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-thymeleaf/src/main/java/com/springboot/thymeleaf/SSLConfig.java" afterPath="$PROJECT_DIR$/springboot-thymeleaf/src/main/java/com/springboot/thymeleaf/SSLConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,12 +61,12 @@
       <file leaf-file-name="SSLConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-thymeleaf/src/main/java/com/springboot/thymeleaf/SSLConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#903#1474#0" expanded="true" />
-                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#918#1489#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -256,11 +177,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="59" />
-    <option name="y" value="93" />
-    <option name="width" value="1917" />
-    <option name="height" value="976" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -283,49 +203,6 @@
             <path>
               <item name="springboot-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-thymeleaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1039,7 +916,7 @@
       <workItem from="1528092936435" duration="53000" />
       <workItem from="1529668690989" duration="17346000" />
       <workItem from="1529920762880" duration="4441000" />
-      <workItem from="1530014332421" duration="6009000" />
+      <workItem from="1530014332421" duration="6417000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis自动生成">
       <created>1508465630200</created>
@@ -1280,10 +1157,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143428000" />
+    <option name="totallyTimeSpent" value="143836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="93" width="1917" height="976" extended-state="1" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1296,7 +1173,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45337996" sideWeight="0.4717484" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3953252" sideWeight="0.4717484" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3976436" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1308,8 +1185,8 @@
       <window_info id="Mybatis datasource" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49778515" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496" sideWeight="0.492" order="0" side_tool="false" content_ui="combo" x="783" y="30" width="353" height="957" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.49778515" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920128" sideWeight="0.492" order="0" side_tool="false" content_ui="combo" x="783" y="30" width="353" height="957" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16791044" sideWeight="0.508" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1806,12 +1683,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-thymeleaf/src/main/java/com/springboot/thymeleaf/SSLConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#903#1474#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#918#1489#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
           </folding>
         </state>
       </provider>
