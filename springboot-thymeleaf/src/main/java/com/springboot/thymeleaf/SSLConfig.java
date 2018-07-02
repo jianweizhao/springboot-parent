@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * <p>
  *     ssl安全协议配置
+ *     git测试修改名称
  * </p>
  *
  * @author jwzhao
