@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-elastic-job:war">
+    <output-path>$PROJECT_DIR$/springboot-elastic-job/target</output-path>
+    <root id="archive" name="springboot-elastic-job-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-elastic-job:war exploded" />
+    </root>
+  </artifact>
+</component>
