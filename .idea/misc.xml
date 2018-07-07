@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/springboot-elastic-job/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-base/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
       </list>
     </option>
   </component>

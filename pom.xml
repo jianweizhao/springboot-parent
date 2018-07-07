@@ -105,5 +105,6 @@
         <module>springboot-elasticsearch</module>
         <module>springboot-elastic-job</module>
         <module>springboot-base</module>
+        <module>springboot-websocket</module>
     </modules>
 </project>
