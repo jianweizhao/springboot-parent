@@ -4,9 +4,6 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../gwms/interface/src/main/java/com/behosoft/inter/dubbo/sys/IAccountBase.java" description="QmApiProcessor selectApiByAccountIdAndAppId(QmApiP..." line="97" />
-    <bookmark url="file://$PROJECT_DIR$/../gwms/interface/src/main/java/com/behosoft/inter/dubbo/sys/IAccountBase.java" description="List&lt;QmConvert&gt; selectQmConverts(QmConvert qmConve..." line="54" />
-    <bookmark url="file://$PROJECT_DIR$/../gwms/interface/src/main/java/com/behosoft/inter/dubbo/sys/item/IItemBase.java" description="ApiResponse&lt;Object&gt; updateItem(ApiRequest&lt;String&gt; ..." line="95" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eece1a6-a465-4d5f-8fc2-3f0a7d7f31a3" name="Default" comment="springboot整合elasticjob">
