@@ -4,7 +4,6 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../gap-monitor/gap-monitor-service/src/main/java/cn/g2link/gap/monitor/service/IVehicleService.java" description="List&lt;VehicleVO&gt; queryVehicleMapList(String cityCod..." line="48" />
     <bookmark url="file://$PROJECT_DIR$/../gwms/interface/src/main/java/com/behosoft/inter/dubbo/sys/IAccountBase.java" description="QmApiProcessor selectApiByAccountIdAndAppId(QmApiP..." line="97" />
     <bookmark url="file://$PROJECT_DIR$/../gwms/interface/src/main/java/com/behosoft/inter/dubbo/sys/IAccountBase.java" description="List&lt;QmConvert&gt; selectQmConverts(QmConvert qmConve..." line="54" />
     <bookmark url="file://$PROJECT_DIR$/../gwms/interface/src/main/java/com/behosoft/inter/dubbo/sys/item/IItemBase.java" description="ApiResponse&lt;Object&gt; updateItem(ApiRequest&lt;String&gt; ..." line="95" />
